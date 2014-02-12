@@ -1,3 +1,5 @@
+require 'protected_attributes'
+
 module RailsEventLogger
   module Models
     class EventLog < ::ActiveRecord::Base
