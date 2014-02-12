@@ -20,7 +20,7 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.5"
   spec.add_development_dependency 'rake', '~> 0'
-  spec.add_runtime_dependency 'rails'
-  spec.add_runtime_dependency 'activerecord'
-  spec.add_runtime_dependency 'protected_attributes'
+  spec.add_runtime_dependency 'rails', '>= 3.2'
+  spec.add_runtime_dependency 'activerecord', '>= 3.2'
+  spec.add_runtime_dependency 'protected_attributes', "~> 1.0.5"
 end
