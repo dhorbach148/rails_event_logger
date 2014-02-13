@@ -45,6 +45,9 @@ module RailsEventLogger
       )
     end
 
+    def logs
+      RailsEventLogger::Models::EventLog.where(item_id: self.id)
+    end
   end # module InstanceMethods
 end # module RailsEventLogger
 
