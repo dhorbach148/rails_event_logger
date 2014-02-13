@@ -22,6 +22,7 @@ Or install it yourself as:
 
     $ gem install rails_event_logger
 
+After bundle or installation execute the following shell commands:
 ```bash
 $ rails generate rails_event_logger:install
 $ rake db:migrate
@@ -38,7 +39,7 @@ class User < ActiveRecord::Base
 end
 ```
 
-This adds a `logs` class method and a `log_event` instance method to
+This adds a `logs` class method and the `log_event` and `logs` instance methods to
 your model.
 
 The `log_event` method needs a `logged_changes` attribute which is a
@@ -52,6 +53,9 @@ u.log_event(logged_changes: {msg: "Something happend what i want to log in my ev
 # => <RailsEventLogger::Models::EventLog id: 1, logged_changes: {:msg=>"Something happend what i want to log in my event_logs table"}, ...>
 
 User.logs # => [<RailsEventLogger::Models::EventLog id: 1,...>]
+
+# All the log entries for user u
+u.logs # =>  [#<RailsEventLogger::Models::EventLog id: 7,...>]
 ```
 
 The `log_event` method creates a record with ur given attributes and
