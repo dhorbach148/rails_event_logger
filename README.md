@@ -54,13 +54,13 @@ p.log_event(logged_changes: {msg: "Something happend what i want to log in my ev
 
 p2 = Post.create(text: "Lorem") # => <Post id: 2, text: "Lorem">
 
-p2.log_event(logged_changes: {msg: "A simple log entry for user 2"})
+p2.log_event(logged_changes: {msg: "A simple log entry for post 2"})
 # => <RailsEventLogger::Models::EventLog id: 2, logged_changes: {:msg=>"A simple log entry for post 2"}, ...>
 
 Post.logs # => [<RailsEventLogger::Models::EventLog id: 1,...>, <RailsEventLogger::Models::EventLog id: 2,...>>]
 
 # All the log entries for post p
-p.logs # =>  [#<RailsEventLogger::Models::EventLog id: 1,...>]
+p.logs # =>  [#<RailsEventLogger::Models::EventLog id: 1, item_id: 1...>]
 
 log_entry = Post.logs.first # =>  <RailsEventLogger::Models::EventLog id: 1, logged_changes: {:msg=>"Something happend what i want to log in my event_logs table"}, ...>
 log_entry.user # => Returns the user who was logged in when the event was logged, or the user with the stored id, if user_id was overwritten
