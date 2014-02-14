@@ -47,15 +47,23 @@ serialized field in the database. So u can save Hashes with anything u
 want.
 
 ```ruby
-u = User.create(name: "Thomas") # => <User id: 1, name: "Thomas">
+p = Post.create(text: "Hello World!") # => <Post id: 1, text: "Hello World!">
 
-u.log_event(logged_changes: {msg: "Something happend what i want to log in my event_logs table"})
+p.log_event(logged_changes: {msg: "Something happend what i want to log in my event_logs table"})
 # => <RailsEventLogger::Models::EventLog id: 1, logged_changes: {:msg=>"Something happend what i want to log in my event_logs table"}, ...>
 
-User.logs # => [<RailsEventLogger::Models::EventLog id: 1,...>]
+p2 = Post.create(text: "Lorem") # => <Post id: 2, text: "Lorem">
 
-# All the log entries for user u
-u.logs # =>  [#<RailsEventLogger::Models::EventLog id: 7,...>]
+p2.log_event(logged_changes: {msg: "A simple log entry for user 2"})
+# => <RailsEventLogger::Models::EventLog id: 2, logged_changes: {:msg=>"A simple log entry for post 2"}, ...>
+
+Post.logs # => [<RailsEventLogger::Models::EventLog id: 1,...>, <RailsEventLogger::Models::EventLog id: 2,...>>]
+
+# All the log entries for post p
+p.logs # =>  [#<RailsEventLogger::Models::EventLog id: 1,...>]
+
+log_entry = Post.logs.first # =>  <RailsEventLogger::Models::EventLog id: 1, logged_changes: {:msg=>"Something happend what i want to log in my event_logs table"}, ...>
+log_entry.user # => Returns the user who was logged in when the event was logged, or the user with the stored id, if user_id was overwritten
 ```
 
 The `log_event` method creates a record with ur given attributes and
@@ -66,7 +74,7 @@ sets the following attributes with default values.
 * user_id
 * created_at
 
-The `event_type` is always set to `#{ModelClassName}EventLog}`.
+The `event_type` is always set to `#{ModelClassName}EventLog}` by default, but can be overwritten.
 
 The `item_id` represents the ID of the Model instance on which you called the
 `log_event` method unless u overwrite it on the method call.
