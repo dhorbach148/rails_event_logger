@@ -34,7 +34,7 @@ $ rake db:migrate
 Add `has_event_logging` on your models:
 
 ```ruby
-class User < ActiveRecord::Base
+class Post < ActiveRecord::Base
   has_event_logging
 end
 ```
