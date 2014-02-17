@@ -1,0 +1,999 @@
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO `event_logs` (`created_at`, `event_type`, `item_id`, `logged_changes`, `user_id`) VALUES ('2014-02-17 10:58:32', 'TestEvent', 1, '---\n:a: 1\n:b: 3\n', 1)
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mRailsEventLogger::Models::EventLog Load (0.5ms)[0m  SELECT `event_logs`.* FROM `event_logs` WHERE `event_logs`.`id` = 1 LIMIT 1
+  [1m[36m (1.2ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `event_logs` (`created_at`, `event_type`, `item_id`, `logged_changes`, `user_id`) VALUES ('2014-02-17 11:05:47', 'TestEvent', 1, '---\n:a: 1\n:b: 3\n', 1)
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mRailsEventLogger::Models::EventLog Load (0.5ms)[0m  SELECT `event_logs`.* FROM `event_logs` WHERE `event_logs`.`id` = 2 LIMIT 1
+  [1m[36m (30.7ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `event_logs` (`created_at`, `event_type`, `item_id`, `logged_changes`, `user_id`) VALUES ('2014-02-17 11:13:00', 'TestEvent', 1, '---\n:a: 1\n:b: 3\n', 1)
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mRailsEventLogger::Models::EventLog Load (0.4ms)[0m  SELECT `event_logs`.* FROM `event_logs` WHERE `event_logs`.`id` = 3 LIMIT 1
+  [1m[36m (1.4ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO `event_logs` (`created_at`, `event_type`, `item_id`, `logged_changes`, `user_id`) VALUES ('2014-02-17 11:13:56', 'TestEvent', 1, '---\n:a: 1\n:b: 3\n', 1)
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mRailsEventLogger::Models::EventLog Load (0.4ms)[0m  SELECT `event_logs`.* FROM `event_logs` WHERE `event_logs`.`id` = 4 LIMIT 1
+  [1m[36m (35.8ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `event_logs` (`created_at`, `event_type`, `item_id`, `logged_changes`, `user_id`) VALUES ('2014-02-17 11:14:59', 'TestEvent', 1, '---\n:a: 1\n:b: 3\n', 1)
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mRailsEventLogger::Models::EventLog Load (0.5ms)[0m  SELECT `event_logs`.* FROM `event_logs` WHERE `event_logs`.`id` = 5 LIMIT 1
+  [1m[36m (1.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `event_logs` (`created_at`, `event_type`, `item_id`, `logged_changes`, `user_id`) VALUES ('2014-02-17 11:15:58', 'TestEvent', 1, '---\n:a: 1\n:b: 3\n', 1)
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mRailsEventLogger::Models::EventLog Load (0.4ms)[0m  SELECT `event_logs`.* FROM `event_logs` WHERE `event_logs`.`id` = 6 LIMIT 1
+  [1m[36m (40.6ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `event_logs` (`created_at`, `event_type`, `item_id`, `logged_changes`, `user_id`) VALUES ('2014-02-17 11:17:46', 'TestEvent', 1, '---\n:a: 1\n:b: 3\n', 1)
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mRailsEventLogger::Models::EventLog Load (0.4ms)[0m  SELECT `event_logs`.* FROM `event_logs` WHERE `event_logs`.`id` = 7 LIMIT 1
+  [1m[36m (1.4ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+WARNING: Can't mass-assign protected attributes for User: name
+
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM `event_logs` WHERE `event_logs`.`event_type` = 'UserEventLog'[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `event_logs` (`created_at`, `event_type`, `item_id`, `logged_changes`, `user_id`) VALUES ('2014-02-17 11:21:17', 'TestEvent', 1, '---\n:a: 1\n:b: 3\n', 1)[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mRailsEventLogger::Models::EventLog Load (0.5ms)[0m  [1mSELECT `event_logs`.* FROM `event_logs` WHERE `event_logs`.`id` = 1 LIMIT 1[0m
+  [1m[35m (1.5ms)[0m  ROLLBACK
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `event_logs` (`created_at`, `event_type`, `item_id`, `logged_changes`, `user_id`) VALUES ('2014-02-17 11:22:00', 'TestEvent', 1, '---\n:a: 1\n:b: 3\n', 1)
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mRailsEventLogger::Models::EventLog Load (0.4ms)[0m  SELECT `event_logs`.* FROM `event_logs` WHERE `event_logs`.`id` = 2 LIMIT 1
+  [1m[36m (10.7ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+WARNING: Can't mass-assign protected attributes for User: name
+
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM `event_logs` WHERE `event_logs`.`event_type` = 'UserEventLog'[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+WARNING: Can't mass-assign protected attributes for User: name
+
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `users` (`created_at`, `updated_at`) VALUES ('2014-02-17 11:25:39', '2014-02-17 11:25:39')
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+WARNING: Can't mass-assign protected attributes for User: name
+
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `users` (`created_at`, `updated_at`) VALUES ('2014-02-17 11:25:39', '2014-02-17 11:25:39')[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `event_logs` (`created_at`, `event_type`, `item_id`, `logged_changes`) VALUES ('2014-02-17 11:25:39', 'UserEventLog', 1, '--- test log\n...\n')
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `event_logs` (`created_at`, `event_type`, `item_id`, `logged_changes`) VALUES ('2014-02-17 11:25:39', 'UserEventLog', 2, '--- another test log\n...\n')[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM `event_logs` WHERE `event_logs`.`event_type` = 'UserEventLog'[0m
+  [1m[35m (53.9ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM `event_logs` WHERE `event_logs`.`event_type` = 'UserEventLog'
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `event_logs` (`created_at`, `event_type`, `item_id`, `logged_changes`, `user_id`) VALUES ('2014-02-17 11:25:39', 'TestEvent', 1, '---\n:a: 1\n:b: 3\n', 1)
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mRailsEventLogger::Models::EventLog Load (0.4ms)[0m  SELECT `event_logs`.* FROM `event_logs` WHERE `event_logs`.`id` = 5 LIMIT 1
+  [1m[36m (1.1ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `event_logs` (`created_at`, `event_type`, `item_id`, `logged_changes`, `user_id`) VALUES ('2014-02-17 11:25:44', 'TestEvent', 1, '---\n:a: 1\n:b: 3\n', 1)
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mRailsEventLogger::Models::EventLog Load (0.4ms)[0m  SELECT `event_logs`.* FROM `event_logs` WHERE `event_logs`.`id` = 6 LIMIT 1
+  [1m[36m (1.6ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM `event_logs` WHERE `event_logs`.`event_type` = 'UserEventLog'[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+WARNING: Can't mass-assign protected attributes for User: name
+
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `users` (`created_at`, `updated_at`) VALUES ('2014-02-17 11:25:44', '2014-02-17 11:25:44')[0m
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+WARNING: Can't mass-assign protected attributes for User: name
+
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `users` (`created_at`, `updated_at`) VALUES ('2014-02-17 11:25:44', '2014-02-17 11:25:44')
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `event_logs` (`created_at`, `event_type`, `item_id`, `logged_changes`) VALUES ('2014-02-17 11:25:44', 'UserEventLog', 3, '--- test log\n...\n')[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `event_logs` (`created_at`, `event_type`, `item_id`, `logged_changes`) VALUES ('2014-02-17 11:25:44', 'UserEventLog', 4, '--- another test log\n...\n')
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM `event_logs` WHERE `event_logs`.`event_type` = 'UserEventLog'
+  [1m[36m (2.7ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+WARNING: Can't mass-assign protected attributes for User: name
+
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO `users` (`created_at`, `updated_at`) VALUES ('2014-02-17 11:28:49', '2014-02-17 11:28:49')
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+WARNING: Can't mass-assign protected attributes for User: name
+
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `users` (`created_at`, `updated_at`) VALUES ('2014-02-17 11:28:49', '2014-02-17 11:28:49')[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `event_logs` (`created_at`, `event_type`, `item_id`, `logged_changes`) VALUES ('2014-02-17 11:28:49', 'UserEventLog', 5, '---\n:msg: test log\n')
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `event_logs` (`created_at`, `event_type`, `item_id`, `logged_changes`) VALUES ('2014-02-17 11:28:49', 'UserEventLog', 6, '---\n:msg: another test log\n')[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM `event_logs` WHERE `event_logs`.`event_type` = 'UserEventLog'[0m
+  [1m[35mRailsEventLogger::Models::EventLog Load (0.4ms)[0m  SELECT `event_logs`.* FROM `event_logs` WHERE `event_logs`.`event_type` = 'UserEventLog' ORDER BY `event_logs`.`id` ASC LIMIT 1
+  [1m[36mRailsEventLogger::Models::EventLog Load (0.3ms)[0m  [1mSELECT `event_logs`.* FROM `event_logs` WHERE `event_logs`.`event_type` = 'UserEventLog' AND `event_logs`.`user_id` = 6 ORDER BY `event_logs`.`id` ASC LIMIT 1[0m
+  [1m[35m (14.9ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM `event_logs` WHERE `event_logs`.`event_type` = 'UserEventLog'
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `event_logs` (`created_at`, `event_type`, `item_id`, `logged_changes`, `user_id`) VALUES ('2014-02-17 11:28:49', 'TestEvent', 1, '---\n:a: 1\n:b: 3\n', 1)
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mRailsEventLogger::Models::EventLog Load (0.3ms)[0m  SELECT `event_logs`.* FROM `event_logs` WHERE `event_logs`.`id` = 11 LIMIT 1
+  [1m[36m (1.2ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+WARNING: Can't mass-assign protected attributes for User: name
+
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `users` (`created_at`, `updated_at`) VALUES ('2014-02-17 11:29:50', '2014-02-17 11:29:50')
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+WARNING: Can't mass-assign protected attributes for User: name
+
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `users` (`created_at`, `updated_at`) VALUES ('2014-02-17 11:29:50', '2014-02-17 11:29:50')[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `event_logs` (`created_at`, `event_type`, `item_id`, `logged_changes`) VALUES ('2014-02-17 11:29:50', 'UserEventLog', 7, '---\n:msg: test log\n')
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `event_logs` (`created_at`, `event_type`, `item_id`, `logged_changes`) VALUES ('2014-02-17 11:29:50', 'UserEventLog', 8, '---\n:msg: another test log\n')[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM `event_logs` WHERE `event_logs`.`event_type` = 'UserEventLog'[0m
+  [1m[35mRailsEventLogger::Models::EventLog Load (0.3ms)[0m  SELECT `event_logs`.* FROM `event_logs` WHERE `event_logs`.`event_type` = 'UserEventLog' ORDER BY `event_logs`.`id` ASC LIMIT 1
+  [1m[36mRailsEventLogger::Models::EventLog Load (0.3ms)[0m  [1mSELECT `event_logs`.* FROM `event_logs` WHERE `event_logs`.`event_type` = 'UserEventLog' AND `event_logs`.`item_id` = 8 ORDER BY `event_logs`.`id` ASC LIMIT 1[0m
+  [1m[35m (8.5ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM `event_logs` WHERE `event_logs`.`event_type` = 'UserEventLog'
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `event_logs` (`created_at`, `event_type`, `item_id`, `logged_changes`, `user_id`) VALUES ('2014-02-17 11:29:50', 'TestEvent', 1, '---\n:a: 1\n:b: 3\n', 1)
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mRailsEventLogger::Models::EventLog Load (0.3ms)[0m  SELECT `event_logs`.* FROM `event_logs` WHERE `event_logs`.`id` = 14 LIMIT 1
+  [1m[36m (1.5ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `event_logs` (`created_at`, `event_type`, `item_id`, `logged_changes`, `user_id`) VALUES ('2014-02-17 11:35:59', 'TestEvent', 1, '---\n:a: 1\n:b: 3\n', 1)
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mRailsEventLogger::Models::EventLog Load (0.4ms)[0m  SELECT `event_logs`.* FROM `event_logs` WHERE `event_logs`.`id` = 15 LIMIT 1
+  [1m[36m (7.5ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM `event_logs` WHERE `event_logs`.`event_type` = 'UserEventLog'[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+WARNING: Can't mass-assign protected attributes for User: name
+
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `users` (`created_at`, `updated_at`) VALUES ('2014-02-17 11:35:59', '2014-02-17 11:35:59')[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+WARNING: Can't mass-assign protected attributes for User: name
+
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `users` (`created_at`, `updated_at`) VALUES ('2014-02-17 11:35:59', '2014-02-17 11:35:59')
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `event_logs` (`created_at`, `event_type`, `item_id`, `logged_changes`) VALUES ('2014-02-17 11:35:59', 'UserEventLog', 9, '---\n:msg: test log\n')[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO `event_logs` (`created_at`, `event_type`, `item_id`, `logged_changes`) VALUES ('2014-02-17 11:35:59', 'UserEventLog', 10, '---\n:msg: another test log\n')
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM `event_logs` WHERE `event_logs`.`event_type` = 'UserEventLog'
+  [1m[36mRailsEventLogger::Models::EventLog Load (0.2ms)[0m  [1mSELECT `event_logs`.* FROM `event_logs` WHERE `event_logs`.`event_type` = 'UserEventLog' ORDER BY `event_logs`.`id` ASC LIMIT 1[0m
+  [1m[35mRailsEventLogger::Models::EventLog Load (0.2ms)[0m  SELECT `event_logs`.* FROM `event_logs` WHERE `event_logs`.`event_type` = 'UserEventLog' AND `event_logs`.`item_id` = 10 ORDER BY `event_logs`.`id` ASC LIMIT 1
+  [1m[36m (129.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+WARNING: Can't mass-assign protected attributes for User: name
+
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `users` (`created_at`, `updated_at`) VALUES ('2014-02-17 11:35:59', '2014-02-17 11:35:59')
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (1.2ms)[0m  ROLLBACK
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `event_logs` (`created_at`, `event_type`, `item_id`, `logged_changes`, `user_id`) VALUES ('2014-02-17 11:36:28', 'TestEvent', 1, '---\n:a: 1\n:b: 3\n', 1)
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mRailsEventLogger::Models::EventLog Load (0.4ms)[0m  SELECT `event_logs`.* FROM `event_logs` WHERE `event_logs`.`id` = 18 LIMIT 1
+  [1m[36m (1.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM `event_logs` WHERE `event_logs`.`event_type` = 'UserEventLog'[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+WARNING: Can't mass-assign protected attributes for User: name
+
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `users` (`created_at`, `updated_at`) VALUES ('2014-02-17 11:36:28', '2014-02-17 11:36:28')[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+WARNING: Can't mass-assign protected attributes for User: name
+
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `users` (`created_at`, `updated_at`) VALUES ('2014-02-17 11:36:28', '2014-02-17 11:36:28')
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `event_logs` (`created_at`, `event_type`, `item_id`, `logged_changes`) VALUES ('2014-02-17 11:36:28', 'UserEventLog', 12, '---\n:msg: test log\n')[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `event_logs` (`created_at`, `event_type`, `item_id`, `logged_changes`) VALUES ('2014-02-17 11:36:28', 'UserEventLog', 13, '---\n:msg: another test log\n')
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM `event_logs` WHERE `event_logs`.`event_type` = 'UserEventLog'
+  [1m[36mRailsEventLogger::Models::EventLog Load (0.2ms)[0m  [1mSELECT `event_logs`.* FROM `event_logs` WHERE `event_logs`.`event_type` = 'UserEventLog' ORDER BY `event_logs`.`id` ASC LIMIT 1[0m
+  [1m[35mRailsEventLogger::Models::EventLog Load (0.3ms)[0m  SELECT `event_logs`.* FROM `event_logs` WHERE `event_logs`.`event_type` = 'UserEventLog' AND `event_logs`.`item_id` = 13 ORDER BY `event_logs`.`id` ASC LIMIT 1
+  [1m[36m (11.7ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+WARNING: Can't mass-assign protected attributes for User: name
+
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `users` (`created_at`, `updated_at`) VALUES ('2014-02-17 11:36:28', '2014-02-17 11:36:28')
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.9ms)[0m  ROLLBACK
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `event_logs` (`created_at`, `event_type`, `item_id`, `logged_changes`, `user_id`) VALUES ('2014-02-17 11:37:19', 'TestEvent', 1, '---\n:a: 1\n:b: 3\n', 1)
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mRailsEventLogger::Models::EventLog Load (0.4ms)[0m  SELECT `event_logs`.* FROM `event_logs` WHERE `event_logs`.`id` = 21 LIMIT 1
+  [1m[36m (12.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM `event_logs` WHERE `event_logs`.`event_type` = 'UserEventLog'[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+WARNING: Can't mass-assign protected attributes for User: name
+
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `users` (`created_at`, `updated_at`) VALUES ('2014-02-17 11:37:19', '2014-02-17 11:37:19')[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+WARNING: Can't mass-assign protected attributes for User: name
+
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `users` (`created_at`, `updated_at`) VALUES ('2014-02-17 11:37:19', '2014-02-17 11:37:19')
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `event_logs` (`created_at`, `event_type`, `item_id`, `logged_changes`) VALUES ('2014-02-17 11:37:19', 'UserEventLog', 15, '---\n:msg: test log\n')[0m
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `event_logs` (`created_at`, `event_type`, `item_id`, `logged_changes`) VALUES ('2014-02-17 11:37:19', 'UserEventLog', 16, '---\n:msg: another test log\n')
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM `event_logs` WHERE `event_logs`.`event_type` = 'UserEventLog'
+  [1m[36mRailsEventLogger::Models::EventLog Load (0.3ms)[0m  [1mSELECT `event_logs`.* FROM `event_logs` WHERE `event_logs`.`event_type` = 'UserEventLog' ORDER BY `event_logs`.`id` ASC LIMIT 1[0m
+  [1m[35mRailsEventLogger::Models::EventLog Load (0.2ms)[0m  SELECT `event_logs`.* FROM `event_logs` WHERE `event_logs`.`event_type` = 'UserEventLog' AND `event_logs`.`item_id` = 16 ORDER BY `event_logs`.`id` ASC LIMIT 1
+  [1m[36m (1.0ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+WARNING: Can't mass-assign protected attributes for User: name
+
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `users` (`created_at`, `updated_at`) VALUES ('2014-02-17 11:37:19', '2014-02-17 11:37:19')
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (1.0ms)[0m  ROLLBACK
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+WARNING: Can't mass-assign protected attributes for User: name
+
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `users` (`created_at`, `updated_at`) VALUES ('2014-02-17 11:42:35', '2014-02-17 11:42:35')
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+WARNING: Can't mass-assign protected attributes for User: name
+
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `users` (`created_at`, `updated_at`) VALUES ('2014-02-17 11:42:35', '2014-02-17 11:42:35')[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `event_logs` (`created_at`, `event_type`, `item_id`, `logged_changes`) VALUES ('2014-02-17 11:42:35', 'UserEventLog', 18, '---\n:msg: user 1 log\n')
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `event_logs` (`created_at`, `event_type`, `item_id`, `logged_changes`) VALUES ('2014-02-17 11:42:35', 'UserEventLog', 19, '---\n:msg: user 2 log\n')[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM `event_logs` WHERE `event_logs`.`item_id` = 18[0m
+  [1m[35mRailsEventLogger::Models::EventLog Load (0.4ms)[0m  SELECT `event_logs`.* FROM `event_logs` WHERE `event_logs`.`item_id` = 18 ORDER BY `event_logs`.`id` ASC LIMIT 1
+  [1m[36m (8.7ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+WARNING: Can't mass-assign protected attributes for User: name
+
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `users` (`created_at`, `updated_at`) VALUES ('2014-02-17 11:42:35', '2014-02-17 11:42:35')
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (1.0ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+WARNING: Can't mass-assign protected attributes for User: name
+
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `users` (`created_at`, `updated_at`) VALUES ('2014-02-17 11:42:35', '2014-02-17 11:42:35')[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+WARNING: Can't mass-assign protected attributes for User: name
+
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO `users` (`created_at`, `updated_at`) VALUES ('2014-02-17 11:42:35', '2014-02-17 11:42:35')
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `event_logs` (`created_at`, `event_type`, `item_id`, `logged_changes`) VALUES ('2014-02-17 11:42:35', 'UserEventLog', 21, '---\n:msg: test log\n')[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `event_logs` (`created_at`, `event_type`, `item_id`, `logged_changes`) VALUES ('2014-02-17 11:42:35', 'UserEventLog', 22, '---\n:msg: another test log\n')
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM `event_logs` WHERE `event_logs`.`event_type` = 'UserEventLog'
+  [1m[36mRailsEventLogger::Models::EventLog Load (0.3ms)[0m  [1mSELECT `event_logs`.* FROM `event_logs` WHERE `event_logs`.`event_type` = 'UserEventLog' ORDER BY `event_logs`.`id` ASC LIMIT 1[0m
+  [1m[35mRailsEventLogger::Models::EventLog Load (0.4ms)[0m  SELECT `event_logs`.* FROM `event_logs` WHERE `event_logs`.`event_type` = 'UserEventLog' AND `event_logs`.`item_id` = 22 ORDER BY `event_logs`.`id` ASC LIMIT 1
+  [1m[36m (1.6ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM `event_logs` WHERE `event_logs`.`event_type` = 'UserEventLog'[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `event_logs` (`created_at`, `event_type`, `item_id`, `logged_changes`, `user_id`) VALUES ('2014-02-17 11:42:35', 'TestEvent', 1, '---\n:a: 1\n:b: 3\n', 1)[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36mRailsEventLogger::Models::EventLog Load (0.3ms)[0m  [1mSELECT `event_logs`.* FROM `event_logs` WHERE `event_logs`.`id` = 28 LIMIT 1[0m
+  [1m[35m (1.3ms)[0m  ROLLBACK
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.9ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `event_logs` (`created_at`, `event_type`, `item_id`, `logged_changes`, `user_id`) VALUES ('2014-02-17 11:43:12', 'TestEvent', 1, '---\n:a: 1\n:b: 3\n', 1)
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mRailsEventLogger::Models::EventLog Load (0.4ms)[0m  SELECT `event_logs`.* FROM `event_logs` WHERE `event_logs`.`id` = 29 LIMIT 1
+  [1m[36m (1.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM `event_logs` WHERE `event_logs`.`event_type` = 'UserEventLog'[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+WARNING: Can't mass-assign protected attributes for User: name
+
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `users` (`created_at`, `updated_at`) VALUES ('2014-02-17 11:43:12', '2014-02-17 11:43:12')[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+WARNING: Can't mass-assign protected attributes for User: name
+
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `users` (`created_at`, `updated_at`) VALUES ('2014-02-17 11:43:12', '2014-02-17 11:43:12')
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `event_logs` (`created_at`, `event_type`, `item_id`, `logged_changes`) VALUES ('2014-02-17 11:43:12', 'UserEventLog', 23, '---\n:msg: test log\n')[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `event_logs` (`created_at`, `event_type`, `item_id`, `logged_changes`) VALUES ('2014-02-17 11:43:12', 'UserEventLog', 24, '---\n:msg: another test log\n')
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM `event_logs` WHERE `event_logs`.`event_type` = 'UserEventLog'
+  [1m[36mRailsEventLogger::Models::EventLog Load (0.2ms)[0m  [1mSELECT `event_logs`.* FROM `event_logs` WHERE `event_logs`.`event_type` = 'UserEventLog' ORDER BY `event_logs`.`id` ASC LIMIT 1[0m
+  [1m[35mRailsEventLogger::Models::EventLog Load (0.4ms)[0m  SELECT `event_logs`.* FROM `event_logs` WHERE `event_logs`.`event_type` = 'UserEventLog' AND `event_logs`.`item_id` = 24 ORDER BY `event_logs`.`id` ASC LIMIT 1
+  [1m[36m (1.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+WARNING: Can't mass-assign protected attributes for User: name
+
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `users` (`created_at`, `updated_at`) VALUES ('2014-02-17 11:43:12', '2014-02-17 11:43:12')
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (1.7ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+WARNING: Can't mass-assign protected attributes for User: name
+
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `users` (`created_at`, `updated_at`) VALUES ('2014-02-17 11:43:12', '2014-02-17 11:43:12')[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+WARNING: Can't mass-assign protected attributes for User: name
+
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO `users` (`created_at`, `updated_at`) VALUES ('2014-02-17 11:43:12', '2014-02-17 11:43:12')
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `event_logs` (`created_at`, `event_type`, `item_id`, `logged_changes`) VALUES ('2014-02-17 11:43:12', 'UserEventLog', 26, '---\n:msg: user 1 log\n')[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO `event_logs` (`created_at`, `event_type`, `item_id`, `logged_changes`) VALUES ('2014-02-17 11:43:12', 'UserEventLog', 27, '---\n:msg: user 2 log\n')
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM `event_logs` WHERE `event_logs`.`item_id` = 26
+  [1m[36mRailsEventLogger::Models::EventLog Load (0.3ms)[0m  [1mSELECT `event_logs`.* FROM `event_logs` WHERE `event_logs`.`item_id` = 26 ORDER BY `event_logs`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM `event_logs` WHERE `event_logs`.`event_type` = 'UserEventLog'
+  [1m[36m (8.3ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `event_logs` (`created_at`, `event_type`, `item_id`, `logged_changes`, `user_id`) VALUES ('2014-02-17 11:43:27', 'TestEvent', 1, '---\n:a: 1\n:b: 3\n', 1)
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mRailsEventLogger::Models::EventLog Load (0.4ms)[0m  SELECT `event_logs`.* FROM `event_logs` WHERE `event_logs`.`id` = 34 LIMIT 1
+  [1m[36m (1.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM `event_logs` WHERE `event_logs`.`event_type` = 'UserEventLog'[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+WARNING: Can't mass-assign protected attributes for User: name
+
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `users` (`created_at`, `updated_at`) VALUES ('2014-02-17 11:43:27', '2014-02-17 11:43:27')[0m
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+WARNING: Can't mass-assign protected attributes for User: name
+
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `users` (`created_at`, `updated_at`) VALUES ('2014-02-17 11:43:27', '2014-02-17 11:43:27')
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `event_logs` (`created_at`, `event_type`, `item_id`, `logged_changes`) VALUES ('2014-02-17 11:43:27', 'UserEventLog', 28, '---\n:msg: test log\n')[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO `event_logs` (`created_at`, `event_type`, `item_id`, `logged_changes`) VALUES ('2014-02-17 11:43:27', 'UserEventLog', 29, '---\n:msg: another test log\n')
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM `event_logs` WHERE `event_logs`.`event_type` = 'UserEventLog'
+  [1m[36mRailsEventLogger::Models::EventLog Load (0.2ms)[0m  [1mSELECT `event_logs`.* FROM `event_logs` WHERE `event_logs`.`event_type` = 'UserEventLog' ORDER BY `event_logs`.`id` ASC LIMIT 1[0m
+  [1m[35mRailsEventLogger::Models::EventLog Load (0.3ms)[0m  SELECT `event_logs`.* FROM `event_logs` WHERE `event_logs`.`event_type` = 'UserEventLog' AND `event_logs`.`item_id` = 29 ORDER BY `event_logs`.`id` ASC LIMIT 1
+  [1m[36m (8.4ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+WARNING: Can't mass-assign protected attributes for User: name
+
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `users` (`created_at`, `updated_at`) VALUES ('2014-02-17 11:43:27', '2014-02-17 11:43:27')
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.9ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+WARNING: Can't mass-assign protected attributes for User: name
+
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `users` (`created_at`, `updated_at`) VALUES ('2014-02-17 11:43:27', '2014-02-17 11:43:27')[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+WARNING: Can't mass-assign protected attributes for User: name
+
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO `users` (`created_at`, `updated_at`) VALUES ('2014-02-17 11:43:27', '2014-02-17 11:43:27')
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `event_logs` (`created_at`, `event_type`, `item_id`, `logged_changes`) VALUES ('2014-02-17 11:43:27', 'UserEventLog', 31, '---\n:msg: user 1 log\n')[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `event_logs` (`created_at`, `event_type`, `item_id`, `logged_changes`) VALUES ('2014-02-17 11:43:27', 'UserEventLog', 32, '---\n:msg: user 2 log\n')
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM `event_logs` WHERE `event_logs`.`item_id` = 31
+  [1m[36mRailsEventLogger::Models::EventLog Load (0.3ms)[0m  [1mSELECT `event_logs`.* FROM `event_logs` WHERE `event_logs`.`item_id` = 31 ORDER BY `event_logs`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM `event_logs` WHERE `event_logs`.`event_type` = 'UserEventLog'
+  [1m[36m (1.2ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+WARNING: Can't mass-assign protected attributes for User: name
+
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `users` (`created_at`, `updated_at`) VALUES ('2014-02-17 11:45:46', '2014-02-17 11:45:46')
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+WARNING: Can't mass-assign protected attributes for User: name
+
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `users` (`created_at`, `updated_at`) VALUES ('2014-02-17 11:45:46', '2014-02-17 11:45:46')[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `event_logs` (`created_at`, `event_type`, `item_id`, `logged_changes`) VALUES ('2014-02-17 11:45:46', 'UserEventLog', 33, '---\n:msg: user 1 log\n')
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `event_logs` (`created_at`, `event_type`, `item_id`, `logged_changes`) VALUES ('2014-02-17 11:45:46', 'UserEventLog', 34, '---\n:msg: user 2 log\n')[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM `event_logs` WHERE `event_logs`.`item_id` = 33[0m
+  [1m[35mRailsEventLogger::Models::EventLog Load (0.4ms)[0m  SELECT `event_logs`.* FROM `event_logs` WHERE `event_logs`.`item_id` = 33 ORDER BY `event_logs`.`id` ASC LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM `event_logs` WHERE `event_logs`.`event_type` = 'UserEventLog'[0m
+  [1m[35m (25.5ms)[0m  ROLLBACK
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+WARNING: Can't mass-assign protected attributes for User: name
+
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `users` (`created_at`, `updated_at`) VALUES ('2014-02-17 11:45:46', '2014-02-17 11:45:46')[0m
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (1.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+WARNING: Can't mass-assign protected attributes for User: name
+
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `users` (`created_at`, `updated_at`) VALUES ('2014-02-17 11:45:46', '2014-02-17 11:45:46')
+  [1m[36m (0.2ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+WARNING: Can't mass-assign protected attributes for User: name
+
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `users` (`created_at`, `updated_at`) VALUES ('2014-02-17 11:45:46', '2014-02-17 11:45:46')[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `event_logs` (`created_at`, `event_type`, `item_id`, `logged_changes`) VALUES ('2014-02-17 11:45:46', 'UserEventLog', 36, '---\n:msg: test log\n')
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `event_logs` (`created_at`, `event_type`, `item_id`, `logged_changes`) VALUES ('2014-02-17 11:45:46', 'UserEventLog', 37, '---\n:msg: another test log\n')[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM `event_logs` WHERE `event_logs`.`event_type` = 'UserEventLog'[0m
+  [1m[35mRailsEventLogger::Models::EventLog Load (0.3ms)[0m  SELECT `event_logs`.* FROM `event_logs` WHERE `event_logs`.`event_type` = 'UserEventLog' ORDER BY `event_logs`.`id` ASC LIMIT 1
+  [1m[36mRailsEventLogger::Models::EventLog Load (0.4ms)[0m  [1mSELECT `event_logs`.* FROM `event_logs` WHERE `event_logs`.`event_type` = 'UserEventLog' AND `event_logs`.`item_id` = 37 ORDER BY `event_logs`.`id` ASC LIMIT 1[0m
+  [1m[35m (1.3ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM `event_logs` WHERE `event_logs`.`event_type` = 'UserEventLog'
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `event_logs` (`created_at`, `event_type`, `item_id`, `logged_changes`, `user_id`) VALUES ('2014-02-17 11:45:46', 'TestEvent', 1, '---\n:a: 1\n:b: 3\n', 1)
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mRailsEventLogger::Models::EventLog Load (0.3ms)[0m  SELECT `event_logs`.* FROM `event_logs` WHERE `event_logs`.`id` = 43 LIMIT 1
+  [1m[36m (1.1ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+WARNING: Can't mass-assign protected attributes for User: name
+
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `users` (`created_at`, `updated_at`) VALUES ('2014-02-17 11:48:53', '2014-02-17 11:48:53')
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+WARNING: Can't mass-assign protected attributes for User: name
+
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `users` (`created_at`, `updated_at`) VALUES ('2014-02-17 11:48:53', '2014-02-17 11:48:53')[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `event_logs` (`created_at`, `event_type`, `item_id`, `logged_changes`) VALUES ('2014-02-17 11:48:53', 'UserEventLog', 38, '---\n:msg: user 1 log\n')
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `event_logs` (`created_at`, `event_type`, `item_id`, `logged_changes`) VALUES ('2014-02-17 11:48:53', 'UserEventLog', 39, '---\n:msg: user 2 log\n')[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM `event_logs` WHERE `event_logs`.`item_id` = 38[0m
+  [1m[35mRailsEventLogger::Models::EventLog Load (0.3ms)[0m  SELECT `event_logs`.* FROM `event_logs` WHERE `event_logs`.`item_id` = 38 ORDER BY `event_logs`.`id` ASC LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM `event_logs` WHERE `event_logs`.`event_type` = 'UserEventLog'[0m
+  [1m[35m (37.3ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+WARNING: Can't mass-assign protected attributes for User: name
+
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `users` (`created_at`, `updated_at`) VALUES ('2014-02-17 11:48:54', '2014-02-17 11:48:54')[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (1.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+WARNING: Can't mass-assign protected attributes for User: name
+
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `users` (`created_at`, `updated_at`) VALUES ('2014-02-17 11:48:54', '2014-02-17 11:48:54')
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+WARNING: Can't mass-assign protected attributes for User: name
+
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `users` (`created_at`, `updated_at`) VALUES ('2014-02-17 11:48:54', '2014-02-17 11:48:54')[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `event_logs` (`created_at`, `event_type`, `item_id`, `logged_changes`) VALUES ('2014-02-17 11:48:54', 'UserEventLog', 41, '---\n:msg: test log\n')
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `event_logs` (`created_at`, `event_type`, `item_id`, `logged_changes`) VALUES ('2014-02-17 11:48:54', 'UserEventLog', 42, '---\n:msg: another test log\n')[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM `event_logs` WHERE `event_logs`.`event_type` = 'UserEventLog'[0m
+  [1m[35mRailsEventLogger::Models::EventLog Load (0.2ms)[0m  SELECT `event_logs`.* FROM `event_logs` WHERE `event_logs`.`event_type` = 'UserEventLog' ORDER BY `event_logs`.`id` ASC LIMIT 1
+  [1m[36mRailsEventLogger::Models::EventLog Load (0.4ms)[0m  [1mSELECT `event_logs`.* FROM `event_logs` WHERE `event_logs`.`event_type` = 'UserEventLog' AND `event_logs`.`item_id` = 42 ORDER BY `event_logs`.`id` ASC LIMIT 1[0m
+  [1m[35m (1.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM `event_logs` WHERE `event_logs`.`event_type` = 'UserEventLog'
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `event_logs` (`created_at`, `event_type`, `item_id`, `logged_changes`, `user_id`) VALUES ('2014-02-17 11:48:54', 'TestEvent', 1, '---\n:a: 1\n:b: 3\n', 1)
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mRailsEventLogger::Models::EventLog Load (0.3ms)[0m  SELECT `event_logs`.* FROM `event_logs` WHERE `event_logs`.`id` = 48 LIMIT 1
+  [1m[36m (1.2ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+WARNING: Can't mass-assign protected attributes for User: name
+
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `users` (`created_at`, `updated_at`) VALUES ('2014-02-17 11:50:00', '2014-02-17 11:50:00')
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+WARNING: Can't mass-assign protected attributes for User: name
+
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `users` (`created_at`, `updated_at`) VALUES ('2014-02-17 11:50:00', '2014-02-17 11:50:00')[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `event_logs` (`created_at`, `event_type`, `item_id`, `logged_changes`) VALUES ('2014-02-17 11:50:00', 'UserEventLog', 43, '---\n:msg: user 1 log\n')
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `event_logs` (`created_at`, `event_type`, `item_id`, `logged_changes`) VALUES ('2014-02-17 11:50:00', 'UserEventLog', 44, '---\n:msg: user 2 log\n')[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM `event_logs` WHERE `event_logs`.`item_id` = 43[0m
+  [1m[35mRailsEventLogger::Models::EventLog Load (0.3ms)[0m  SELECT `event_logs`.* FROM `event_logs` WHERE `event_logs`.`item_id` = 43 ORDER BY `event_logs`.`id` ASC LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM `event_logs` WHERE `event_logs`.`event_type` = 'UserEventLog'[0m
+  [1m[35m (11.0ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+WARNING: Can't mass-assign protected attributes for User: name
+
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `users` (`created_at`, `updated_at`) VALUES ('2014-02-17 11:50:00', '2014-02-17 11:50:00')[0m
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (1.0ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+WARNING: Can't mass-assign protected attributes for User: name
+
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `users` (`created_at`, `updated_at`) VALUES ('2014-02-17 11:50:00', '2014-02-17 11:50:00')
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+WARNING: Can't mass-assign protected attributes for User: name
+
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `users` (`created_at`, `updated_at`) VALUES ('2014-02-17 11:50:00', '2014-02-17 11:50:00')[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `event_logs` (`created_at`, `event_type`, `item_id`, `logged_changes`) VALUES ('2014-02-17 11:50:00', 'UserEventLog', 46, '---\n:msg: test log\n')
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `event_logs` (`created_at`, `event_type`, `item_id`, `logged_changes`) VALUES ('2014-02-17 11:50:00', 'UserEventLog', 47, '---\n:msg: another test log\n')[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM `event_logs` WHERE `event_logs`.`event_type` = 'UserEventLog'[0m
+  [1m[35mRailsEventLogger::Models::EventLog Load (0.3ms)[0m  SELECT `event_logs`.* FROM `event_logs` WHERE `event_logs`.`event_type` = 'UserEventLog' ORDER BY `event_logs`.`id` ASC LIMIT 1
+  [1m[36mRailsEventLogger::Models::EventLog Load (0.5ms)[0m  [1mSELECT `event_logs`.* FROM `event_logs` WHERE `event_logs`.`event_type` = 'UserEventLog' AND `event_logs`.`item_id` = 47 ORDER BY `event_logs`.`id` ASC LIMIT 1[0m
+  [1m[35m (1.3ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM `event_logs` WHERE `event_logs`.`event_type` = 'UserEventLog'
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `event_logs` (`created_at`, `event_type`, `item_id`, `logged_changes`, `user_id`) VALUES ('2014-02-17 11:50:00', 'TestEvent', 1, '---\n:a: 1\n:b: 3\n', 1)
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mRailsEventLogger::Models::EventLog Load (0.3ms)[0m  SELECT `event_logs`.* FROM `event_logs` WHERE `event_logs`.`id` = 53 LIMIT 1
+  [1m[36m (1.1ms)[0m  [1mROLLBACK[0m
