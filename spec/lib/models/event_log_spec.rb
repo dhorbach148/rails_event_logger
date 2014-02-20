@@ -7,6 +7,7 @@ describe RailsEventLogger::Models::EventLog do
   it {should respond_to(:event_type)}
   it {should respond_to(:user_id)}
   it {should respond_to(:logged_changes)}
+  it {should respond_to(:user)}
   
   context "serialization" do
     before do
