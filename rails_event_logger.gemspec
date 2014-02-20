@@ -23,4 +23,6 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency 'rails', '>= 3.2'
   spec.add_runtime_dependency 'activerecord', '>= 3.2'
   spec.add_runtime_dependency 'protected_attributes', "~> 1.0.5"
+  spec.add_development_dependency "mysql2"
+  spec.add_development_dependency "rspec-rails"
 end
